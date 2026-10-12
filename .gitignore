@@ -1,0 +1,81 @@
+# Dependencies and package-manager caches
+node_modules/
+.npm/
+.yarn/
+.pnp.*
+
+# Expo and Metro local state
+.expo/
+.expo-*/
+.metro-health-check*
+web-build/
+dist/
+
+# Generated native projects and build output
+android/
+ios/
+build/
+*.apk
+*.aab
+*.ipa
+
+# Signing keys, certificates, provisioning profiles, and credentials
+*.jks
+*.keystore
+*.p12
+*.p8
+*.pem
+*.key
+*.cer
+*.mobileprovision
+credentials.json
+credentials.*.json
+service-account*.json
+google-services.json
+GoogleService-Info.plist
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tmp
+*.temp
+
+# Generated promotional and store-delivery files
+promo-output/
+previews/
+app-store-assets/
+play-store-assets/
+scripts/inspect_promo_video.py
+scripts/make_promo_video.py
+scripts/make_real_gameplay_promo.py
+scripts/make_source_exact_promo.py
+
+# Superseded artwork kept locally for reference
+assets/adaptive-icon.png
+assets/app-icon-professional*.png
+assets/game-art/button_*.png
+assets/game-art/coin_hint_gold.png
+assets/game-art/coin_layer_bronze.png
+assets/ui-icons/icon-hint.png
+assets/ui-icons/icon-home.png
+assets/ui-icons/icon-levels.png
+assets/ui-icons/icon-restart.png
+assets/ui-icons/icon-settings.png
+assets/ui-icons/icon-undo.png
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+

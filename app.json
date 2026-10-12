@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Block Puzzle Grid",
+    "slug": "puzzle-grid",
+    "version": "1.0.25",
+    "orientation": "portrait",
+    "newArchEnabled": false,
+    "icon": "./assets/app-icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#F7F3EA"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-2671380652899301~8442568541",
+          "iosAppId": "ca-app-pub-2671380652899301~5505896512"
+        }
+      ],
+      "expo-iap"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.gorsengames.puzzlegrid",
+      "buildNumber": "24",
+      "supportsTablet": true,
+      "infoPlist": {
+        "CFBundleDisplayName": "Block Puzzle Grid",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.gorsengames.puzzlegrid",
+      "versionCode": 24,
+      "permissions": [
+        "com.google.android.gms.permission.AD_ID"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app-icon.png",
+        "backgroundColor": "#F7F3EA"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8e380155-113c-4de9-9580-76ede0ea91db"
+      }
+    },
+    "owner": "gorkemsenol"
+  }
+}
